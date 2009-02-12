@@ -88,7 +88,7 @@ def get_candidates(result, results):
 
 def guess_pass(count):
     global wordlist
-    if count == 4:
+    if count == tries:
         header('WARNING, last guess before terminal lock!')
     else:
         header('guess ' + str(count))
