@@ -122,5 +122,5 @@ tries = 4
 ask_tries = raw_input('# tries? (default ' + str(tries) + ') ')
 if ask_tries: tries = ask_tries
 
-for i in range(1,tries+1):
+for i in range(1,int(tries)+1):
 	guess_pass(i)
