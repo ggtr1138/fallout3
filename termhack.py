@@ -1,5 +1,5 @@
 """termhack.py
-Find the best candidates for the word finding to hack a terminal in Fallout 3
+Find the best candidates for the word puzzle to hack a terminal in Fallout 3
 http://fallout.wikia.com/wiki/Terminal#Hacking_Terminals"""
 
 import sys
