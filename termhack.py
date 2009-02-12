@@ -110,8 +110,9 @@ header('Fallout 3 terminal hack', '=')
 # IMPORTANT :
 # a letter is correct only if it is in the right spot.
 
-with open('words.txt') as f:
-    wordlist = f.read().split("\n")
+f = open('words.txt', 'r')
+wordlist = f.read().split("\n")
+f.close()
 
 wordlength = len(wordlist[0])
 results = []
